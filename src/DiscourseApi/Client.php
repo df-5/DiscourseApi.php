@@ -358,4 +358,10 @@ class Client
 
         return $this->request('GET', '/search/query.json?term='.$query.'&include_blurbs='.$context.'&search_context[type]=category&search_context[id]='.$categoryId);
     }
+
+    public function searchInUserPosts($query, $context = false, $username)
+    {
+        $context = (bool) $context;
+        return $this->request('GET', '/search/query.json?term='.$query.'&include_blurbs='.$context.'&search_context[type]=user&search_context[id]='.$username);
+    }
 }
