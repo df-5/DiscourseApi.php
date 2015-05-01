@@ -1,6 +1,7 @@
 {
     "name": "arkqa/discourse-api.php",
     "type": "library",
+    "license": "MIT",
     "description": "Discourse API client for PHP",
     "keywords": ["discourse"],
     "require": {
