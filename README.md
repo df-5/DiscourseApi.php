@@ -15,12 +15,16 @@ Enable realip/x-f-f on whatever is backing your instance.
 Check samples/ to persist this if you are directly running nginx from docker.
 
 #### nginx
+`````
 set_real_ip_from  192.168.5.150;
 real_ip_header    X-Forwarded-For;
+`````
 
 #### apache
+`````
 RemoteIPHeader X-Forwarded-For
 RemoteIPInternalProxy 192.168.5.150
+`````
 
 ### 403/404/Not allowed/etc
 Your username must match your API key (generated from User's Profile -> Admin -> Generate Key).
