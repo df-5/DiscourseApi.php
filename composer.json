@@ -1,6 +1,8 @@
 {
     "name": "ArkQA/DiscourseApi.php"
+    "type": "library",
     "description": "Discourse API client for PHP",
+    "keywords": ["discourse"],
     "require": {
         "guzzlehttp/guzzle": "~5.0"
     },
