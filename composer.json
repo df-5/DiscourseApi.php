@@ -1,0 +1,16 @@
+{
+    "name": "ArkQA/DiscourseApi.php"
+    "description": "Discourse API client for PHP",
+    "require": {
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {"DiscourseApi\\": "src/DiscourseApi"}
+    },
+    "authors": [
+        {
+            "name": "ark",
+            "email": "ark@hawk.org.uk"
+        }
+    ]
+}

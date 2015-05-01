@@ -1,0 +1,6 @@
+composer.phar
+vendor/
+composer.lock
+test.php
+php-cs-fixer
+test2.php
