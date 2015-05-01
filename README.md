@@ -1,9 +1,12 @@
 # DiscourseApi.php
 
 This is really more of a learning experience -- working on a WordPress site for a friend and needed extensible hooks for Discourse.
+
 I've only personally tested this on HHVM (5.6.99-hhvm) and PHP 5.6.8+.
 
 Pull requests and feature additions are welcome, and this will be maintained for a decent amount of time as I've really taken a liking to Discourse and have been using it in a few projects.
+
+At some point I'm going to namespace everything and separate things by user, group, sso, etc, but this will be on another branch/version to maintain backward compatibility.
 
 ## Troubleshooting
 
@@ -28,3 +31,4 @@ The API is subject to the same rate limits as normal users, so you may want to m
 
 ### Guzzle is throwing HTTPS exceptions
 You probably don't have a cert/CA/bundle for whatever certificate you are using.
+
