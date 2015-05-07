@@ -39,4 +39,5 @@ print_r($c->category(1));
  function searchInForum($query, $context = false)
  function searchInTopic($query, $context = false, $topicId)
  function searchInCategory($query, $context = false, $categoryId)
+ function searchInUserPosts($query, $context = false, $username)
 `````
